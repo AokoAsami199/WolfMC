@@ -143,7 +143,7 @@ abstract class BigTree{
 						$level->setBlockIdAt($x + $i, $y + $yy, $z + $k, $this->trunkBlock);
 						$level->setBlockDataAt($x + $i, $y + $yy, $z + $k, $this->type);
 					}
-				}				
+				}
 			}
 		}
 	}

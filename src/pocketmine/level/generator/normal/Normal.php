@@ -39,6 +39,7 @@ use pocketmine\level\Level;
 use pocketmine\math\Vector3;
 use pocketmine\utils\Random;
 use function exp;
+use function rand;
 
 class Normal extends Generator{
 
@@ -142,7 +143,7 @@ class Normal extends Generator{
 					}elseif($temperature < 0.25){
 						return Biome::TAIGA;
 					}elseif($temperature < 0.75){
-						return Biome::FOREST;						
+						return Biome::FOREST;
 					}else{
 						return Biome::BIRCH_FOREST;
 					}

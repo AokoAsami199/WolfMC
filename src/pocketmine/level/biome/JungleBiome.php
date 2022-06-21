@@ -24,9 +24,9 @@ declare(strict_types=1);
 namespace pocketmine\level\biome;
 
 use pocketmine\block\Sapling;
+use pocketmine\level\generator\populator\BigTree;
 use pocketmine\level\generator\populator\TallGrass;
 use pocketmine\level\generator\populator\Tree;
-use pocketmine\level\generator\populator\BigTree;
 
 class JungleBiome extends GrassyBiome{
 

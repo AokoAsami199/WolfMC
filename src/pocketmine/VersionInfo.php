@@ -34,5 +34,5 @@ const _VERSION_INFO_INCLUDED = true;
 
 const NAME = "Wolf-MC";
 const BASE_VERSION = "3.0.2";
-const IS_DEVELOPMENT_BUILD = true;
+const IS_DEVELOPMENT_BUILD = false;
 const BUILD_CHANNEL = "stable";
