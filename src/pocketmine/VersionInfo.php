@@ -33,6 +33,6 @@ if(defined('pocketmine\_VERSION_INFO_INCLUDED')){
 const _VERSION_INFO_INCLUDED = true;
 
 const NAME = "Wolf-MC";
-const BASE_VERSION = "3.0.2";
-const IS_DEVELOPMENT_BUILD = false;
+const BASE_VERSION = "3.0.3";
+const IS_DEVELOPMENT_BUILD = true;
 const BUILD_CHANNEL = "stable";
