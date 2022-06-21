@@ -4,6 +4,7 @@ A server software for Minecraft: BE. This is a SPOON of [PocketMine-MP](https://
   <img alt="Repo View" src="https://komarev.com/ghpvc/?username=Wolf-MC&color=green">
 	<img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/Wolf-MC/WolfMC?label=release&sort=semver">
 	<a href="https://hub.docker.com/r/pmmp/pocketmine-mp"><img src="https://img.shields.io/docker/v/pmmp/pocketmine-mp?logo=docker&label=image" alt="Docker image version (latest semver)" /></a>
+	<a href="https://discord.gg/VjsJWyBd"><img src="https://img.shields.io/discord/988754370994798652.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2" alt="Docker image version (latest semver)" /></a>
 </p>
 
 ## Getting started
