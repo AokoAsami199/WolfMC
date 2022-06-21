@@ -1,20 +1,34 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+## Introduction
+<!-- Explain existing problems or why this pull request is necessary -->
 
----
+### Relevant issues
+<!-- List relevant issues here -->
+<!--
+* Fixes #1
+* Fixes #2
+-->
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Changes
+### API changes
+<!-- Any additions to the API that should be documented in release notes? -->
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+### Behavioural changes
+<!-- Any change in how the server behaves, or its performance? -->
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Backwards compatibility
+<!-- Any possible backwards incompatible changes? How are they solved, or how can they be solved? -->
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## Follow-up
+<!-- Suggest any actions to be done before/after merging this pull request -->
+<!--
+Requires translations:
+| Name | Value in eng.ini |
+| :--: | :---: |
+| `foo.bar` | `Foo bar` |
+-->
+
+## Tests
+<!--
+Details should be provided of tests done. Simply saying "tested" or equivalent is not acceptable.
+Attach scripts or actions to test this pull request, as well as the result
+-->
