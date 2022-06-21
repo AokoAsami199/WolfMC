@@ -1,6 +1,7 @@
 ![WolfMC](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=200&animation=fadeIn&section=header&text=WolfMC&fontSize=70)
 A server software for Minecraft: BE. This is a SPOON of [PocketMine-MP](https://github.com/pmmp/PocketMine-MP/tree/3.28.0)
 <p align="center">
+  <img alt="Repo View" src="https://komarev.com/ghpvc/?username=Wolf-MC&color=green">
 	<img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/Wolf-MC/WolfMC?label=release&sort=semver">
 	<a href="https://hub.docker.com/r/pmmp/pocketmine-mp"><img src="https://img.shields.io/docker/v/pmmp/pocketmine-mp?logo=docker&label=image" alt="Docker image version (latest semver)" /></a>
 </p>

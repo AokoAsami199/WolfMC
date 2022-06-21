@@ -1,8 +1,7 @@
 {
-   "name": "pocketmine/pocketmine-mp",
+   "name": "wolf-mc/wolfmc",
    "description": "A server software for Minecraft: Bedrock Edition written in PHP",
    "type": "project",
-   "homepage": "https://pmmp.io",
    "license": "LGPL-3.0",
    "require": {
       "php": "^8.0",
