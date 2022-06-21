@@ -136,10 +136,13 @@ class Normal extends Generator{
 						return Biome::DESERT;
 					}
 				}elseif($rainfall < 0.80){
-					if($temperature < 0.25){
+					$rand = rand(1, 10);
+					if($rand < 5){
+						return Biome::JUNGLE_FOREST;
+					}elseif($temperature < 0.25){
 						return Biome::TAIGA;
 					}elseif($temperature < 0.75){
-						return Biome::FOREST;
+						return Biome::FOREST;						
 					}else{
 						return Biome::BIRCH_FOREST;
 					}

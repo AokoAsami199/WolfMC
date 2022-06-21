@@ -26,6 +26,7 @@ namespace pocketmine\level\biome;
 use pocketmine\block\Sapling;
 use pocketmine\level\generator\populator\TallGrass;
 use pocketmine\level\generator\populator\Tree;
+use pocketmine\level\generator\populator\BigTree;
 
 class JungleBiome extends GrassyBiome{
 
@@ -40,9 +41,12 @@ class JungleBiome extends GrassyBiome{
 
 		$this->type = $type;
 
-		$trees = new Tree($type === self::TYPE_JUNGLE ? Sapling::JUNGLE : Sapling::OAK);
+		$trees = new Tree($type === self::TYPE_JUNGLE ? Sapling::JUNGLE : Sapling::JUNGLE);
+		$bigTrees = new BigTree($type === self::TYPE_JUNGLE ? Sapling::JUNGLE : Sapling::JUNGLE);
 		$trees->setBaseAmount(6);
+		$bigTrees->setBaseAmount(2);
 		$this->addPopulator($trees);
+		$this->addPopulator($bigTrees);
 
 		$tallGrass = new TallGrass();
 		$tallGrass->setBaseAmount(4);
