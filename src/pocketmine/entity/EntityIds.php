@@ -30,7 +30,6 @@ interface EntityIds{
 	public const PIG = 12;
 	public const SHEEP = 13;
 	public const WOLF = 14;
-	public const WARDEN = 131;
 	public const VILLAGER = 15;
 	public const MOOSHROOM = 16;
 	public const SQUID = 17;
@@ -128,4 +127,5 @@ interface EntityIds{
 	public const TROPICALFISH = 111, TROPICAL_FISH = 111;
 	public const COD = 112, FISH = 112;
 	public const PANDA = 113;
+	public const WARDEN = 131;
 }
