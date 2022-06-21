@@ -1,5 +1,5 @@
 {
-   "name": "wolf-mc/wolfmc",
+   "name": "pocketmine/pocketmine-mp",
    "description": "A server software for Minecraft: Bedrock Edition written in PHP",
    "type": "project",
    "license": "LGPL-3.0",
