@@ -77,9 +77,9 @@ class UpdateCheckTask extends AsyncTask{
 		}else{
 			$updateInfo = $this->getResult();
 			if(is_array($updateInfo)){
-				$server->getUpdater()->checkUpdateCallback($updateInfo);
+				//$server->getUpdater()->checkUpdateCallback($updateInfo);
 			}else{
-				$server->getLogger()->debug("[AutoUpdater] Update info error");
+				//$server->getLogger()->debug("[AutoUpdater] Update info error");
 			}
 
 		}
